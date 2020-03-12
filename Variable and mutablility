@@ -1,0 +1,9 @@
+//variables and mutability
+fn main(){
+    // x is a variable
+let mut x = 5;
+println!("the value of x is: {}",x);
+//we must make the variable mutable to assign any value to the variable x again
+ x = 15;
+println!("the updated value of x is: {}",x)
+}
